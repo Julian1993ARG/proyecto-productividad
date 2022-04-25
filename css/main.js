@@ -12,7 +12,7 @@ function productividadEconomica(){
         resultado1.innerHTML = "Los datos ingresados son invalidos"
     }else{
         let resultado = Number(ganancia / gasto );
-        resultado1.innerHTML = "La pruductividad de los datos ingresados es de " + resultado.toFixed(2);
+        resultado1.innerHTML = "Por cada $ invertido tenemos una poductividad de " + resultado.toFixed(2);
     
     }
 }
@@ -27,6 +27,6 @@ function productividadFisica(){
         resultado2.innerHTML = "Los datos ingresados son invalidos"
     }else{
         let resultado = Number(obtenido / insumo );
-        resultado2.innerHTML = "La pruductividad de los datos ingresados es de " + resultado.toFixed(2);
+        resultado2.innerHTML = "Por cada Kg utilizado tenemos una productividad de " + resultado.toFixed(2);
     }
 }
