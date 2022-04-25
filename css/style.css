@@ -68,7 +68,7 @@ p{
 }
 .calculadora input[type="submit"]{
     width: 150px;
-    margin-top: 8px;
+    margin: 8px 0;
     background-color: #e7e7e7; 
     color: black;
     padding: 15px 22px;
