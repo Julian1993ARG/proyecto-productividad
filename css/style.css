@@ -93,3 +93,33 @@ input[type=number]::-webkit-outer-spin-button {
 input[type=number] { -moz-appearance:textfield; }
 
 /* fin quitado flechas */
+
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFDECD;
+}
+
+footer ul li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 8px 0px;
+}
+
+footer ul li .twiter{
+    background-image: url(/css/assets/icons/twitter.svg);
+}
+footer ul li .linkelind{
+    background-image: url(/css/assets/icons/linkedin.svg);
+}
+footer ul li .github{
+    background-image: url(/css/assets/icons/github.svg);
+}
