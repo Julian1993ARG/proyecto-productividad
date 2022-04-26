@@ -104,6 +104,13 @@ footer{
     background-color: #EFDECD;
 }
 
+footer h2 {
+    padding-top: 10px;
+}
+footer ul{
+    display: flex;
+    gap: 20px;
+}
 footer ul li a{
     display: block;
     width: 30px;
