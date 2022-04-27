@@ -1,0 +1,19 @@
+header div h1 {
+    font-size: 5.4rem;
+}
+
+.main__section{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 10px;
+}
+
+footer{
+    justify-content: space-between;
+}
+footer h2{
+    padding-left: 20px;
+}
+footer ul{
+    padding-right: 20px;
+}
