@@ -1,13 +1,23 @@
 header div h1 {
     font-size: 5.4rem;
 }
-
+.container{
+    padding-top: 0px;
+}
 .main__section{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    column-gap: 10px;
 }
-
+.main__section div:nth-child(1){
+    padding-right: 40px;
+    box-shadow: inset -8px 0px 6px 0px rgba(141, 138, 138, 0.3);
+}
+.main__section div:nth-child(1) h2{
+    padding-top: 20px;
+}
+.example{
+    padding-left: 10px;
+}
 footer{
     justify-content: space-between;
 }
