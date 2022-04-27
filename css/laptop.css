@@ -3,6 +3,7 @@ header div h1 {
 }
 .container{
     padding-top: 0px;
+    position: relative;
 }
 .main__section{
     display: grid;
@@ -30,4 +31,13 @@ footer h2{
 }
 footer ul{
     padding-right: 20px;
+}
+p{
+    font-size: 1.6rem;
+}
+h2{
+    font-size: 2rem;
+}
+h5{
+    font-size: 1.8rem;
 }
