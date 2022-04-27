@@ -16,6 +16,9 @@ header div h1 {
 .main__section div:nth-child(2){
     box-shadow: inset 5px 0px 6px 0px rgba(141, 138, 138, 0.3);
 }
+.main__section div{
+    padding-bottom: 20px;
+}
 .main__section div:nth-child(1) h2{
     padding-top: 20px;
 }
@@ -34,8 +37,9 @@ footer ul{
 }
 p{
     font-size: 1.6rem;
+    line-height: 2.5rem;
 }
-h2{
+.container h2{
     font-size: 2rem;
 }
 h5{
