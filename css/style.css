@@ -100,13 +100,23 @@ p{
     scroll-snap-type: x proximity;
 }
 .coutainer__cards--card{
-    min-width: 290px;
+    min-width: 275px;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     scroll-snap-align: center;
 }
+/* agregando medias para que el formato de overflow se vea bien */
+@media(min-width:375px) {
+    .coutainer__cards--card{
+        min-width: 320px;}
+}
+@media(min-width:425px) {
+    .coutainer__cards--card{
+        min-width: 380px;}
+}
+
 .calculadora{
     max-width: 500px;
     height: auto;
