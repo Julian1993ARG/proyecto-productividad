@@ -31,6 +31,8 @@ footer{
 }
 footer h2{
     padding-left: 20px;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
 }
 footer ul{
     padding-right: 20px;
