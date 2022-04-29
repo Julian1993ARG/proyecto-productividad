@@ -1,6 +1,7 @@
 //obteniendo donde escribir los resultados
 const resultado1 = document.getElementById("resultadoProductividadEconomica");
 const resultado2 = document.getElementById("resultadoProductividadFisica");
+const resultado3= document.getElementById("resultadoProductividadFisica2")
 
 
 //funcion calcular productividad economica
@@ -30,3 +31,20 @@ function productividadFisica(){
         resultado2.innerHTML = "Por cada Kg utilizado tenemos una productividad de " + resultado.toFixed(2);
     }
 }
+
+//Calculando el segundo ejemplo
+function productividadFisica2(){
+    const horas = document.getElementById("horas").value;
+    const polizas = document.getElementById("polizas").value;
+
+    if(horas<=0||polizas<=0){
+        resultado3.innerHTML = "Los datos ingresados son invalidos";
+    } else{
+        let resultado = Number(polizas/horas);
+        resultado3.innerHTML ="Por cada hora tenemos una porductividad de " + resultado + " polizas";
+
+    }
+}
+
+//Calculando 3er ejemplo
+

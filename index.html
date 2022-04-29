@@ -81,6 +81,7 @@
                     <h2>Ejemplos</h2>
 
                     <section class="container__cards">
+                        <!-- 1era Card -->
                         <article class="coutainer__cards--card">
                             <p>
                                 <b>Ejemplo 1</b> Una fábrica de muebles produjo en serie un lote de 20000 sillas para
@@ -94,27 +95,26 @@
                             </p>
                             <section class="calculadora">
                                 <h5>Ingresa los datos para obtener la eficiencia económica</h5>
-                                <label for="gasto">Ingresa el total de los gastos</label>
-                                <input type="number" id="gasto" value="110000">
 
-                                <label for="venta">Ingresa el total de ventas</label>
-                                <input type="number" id="venta" value="200000">
+                                <input type="number" id="gasto" placeholder="Ingresa el total de los gastos">
+
+                                <input type="number" id="venta" placeholder="Ingresa el total de ventas">
                                 <input type="submit" value="Calcular" onclick="productividadEconomica()">
 
                                 <p id="resultadoProductividadEconomica"></p>
 
                                 <h5>Ingresa los datos para obtener la eficiencia física</h5>
-                                <label for="insumo">Ingresa el total de los materiales</label>
-                                <input type="number" id="insumo" value="160000">
 
-                                <label for="obtenido">Ingresa el total producto obtenido</label>
-                                <input type="number" id="obtenido" value="120000">
+                                <input type="number" id="insumo" placeholder="Total de los materiales">
+
+                                <input type="number" id="obtenido" placeholder="Ingresa el total producto obtenido">
                                 <input type="submit" onclick="productividadFisica()" value="Calcular">
 
                                 <p id="resultadoProductividadFisica"></p>
                             </section>
                         </article>
-
+                        <!-- Fin 1era Card -->
+                        <!-- 2da card -->
                         <article class="coutainer__cards--card">
                             <p>
                                 <b>Ejemplo 2</b>
@@ -124,28 +124,20 @@
 
                             </p>
                             <section class="calculadora">
-                                <h5>Ingresa los datos para obtener la eficiencia económica</h5>
-                                <label for="gasto">Ingresa el total de los gastos</label>
-                                <input type="number" id="gasto" value="110000">
+                                <h5>Ingresa los datos para obtener la eficiencia Fisica</h5>
 
-                                <label for="venta">Ingresa el total de ventas</label>
-                                <input type="number" id="venta" value="200000">
-                                <input type="submit" value="Calcular" onclick="productividadEconomica()">
+                                <input type="number" id="horas" placeholder="Ingresa el total de horas">
 
-                                <p id="resultadoProductividadEconomica"></p>
+                                <input type="number" id="polizas" placeholder="Ingresa el total de polizas">
 
-                                <h5>Ingresa los datos para obtener la eficiencia física</h5>
-                                <label for="insumo">Ingresa el total de los materiales</label>
-                                <input type="number" id="insumo" value="160000">
+                                <input type="submit" value="Calcular" onclick="productividadFisica2()">
 
-                                <label for="obtenido">Ingresa el total producto obtenido</label>
-                                <input type="number" id="obtenido" value="120000">
-                                <input type="submit" onclick="productividadFisica()" value="Calcular">
-
-                                <p id="resultadoProductividadFisica"></p>
+                                <p id="resultadoProductividadFisica2"></p>
+                            
                             </section>
                         </article>
-
+                        <!-- Fin 2da card -->
+                        <!-- 3era card -->
                         <article class="coutainer__cards--card">
                             <p>
                                 <b>Ejemplo 3</b>
@@ -163,7 +155,7 @@
                                 <input type="number" id="venta" value="200000">
                                 <input type="submit" value="Calcular" onclick="productividadEconomica()">
 
-                                <p id="resultadoProductividadEconomica"></p>
+                                <p id="resultadoProductividadEconomica3"></p>
 
                                 <h5>Ingresa los datos para obtener la eficiencia física</h5>
                                 <label for="insumo">Ingresa el total de los materiales</label>
@@ -173,9 +165,10 @@
                                 <input type="number" id="obtenido" value="120000">
                                 <input type="submit" onclick="productividadFisica()" value="Calcular">
 
-                                <p id="resultadoProductividadFisica"></p>
+                                <p id="resultadoProductividadFisica3"></p>
                             </section>
                         </article>
+                        <!-- Fin 3era card -->
                     </section>
 
 
