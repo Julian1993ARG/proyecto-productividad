@@ -2,7 +2,7 @@
 const resultado1 = document.getElementById("resultadoProductividadEconomica");
 const resultado2 = document.getElementById("resultadoProductividadFisica");
 const resultado3= document.getElementById("resultadoProductividadFisica2")
-
+const resultado4= document.getElementById("resultadoProductividadEconomica3");
 
 //funcion calcular productividad economica
 
@@ -41,10 +41,21 @@ function productividadFisica2(){
         resultado3.innerHTML = "Los datos ingresados son invalidos";
     } else{
         let resultado = Number(polizas/horas);
-        resultado3.innerHTML ="Por cada hora tenemos una porductividad de " + resultado + " polizas";
+        resultado3.innerHTML ="Por cada hora tenemos una porductividad de " + resultado.toFixed(2) + " polizas";
 
     }
 }
 
 //Calculando 3er ejemplo
 
+function productividadEconomica3(){
+    const gasto = document.getElementById("gasto3").value;
+    const venta = document.getElementById("venta3").value;
+
+    if(gasto<=0|| venta<=0){
+        resultado4.innerHTML ="Los datos ingresados son invalidos";
+    } else {
+        let resultado = Number(venta/gasto);
+        resultado4.innerHTML ="Por cada $ invertido tenemos una poductividad de " + resultado.toFixed(2);
+    }
+}

@@ -57,6 +57,4 @@ h5{
     flex-wrap: wrap;
     overflow: hidden;
 }
-.container__cards .coutainer__cards--card:nth-child(3){
-    display: none;
-}
+
